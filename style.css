@@ -485,7 +485,7 @@ h2 {
 
     #tribute-info {
         max-width: 80%;
-        text-align: justify;
+        text-align: center;
         color: black;
         font-size: 1.4em;
         line-height: 160%;
@@ -623,7 +623,7 @@ h2 {
         font-size: 1.4em;
         line-height: 160%;
         margin: 20px 0;
-        text-align: justify;
+        text-align: center;
     }
 
     .button {
@@ -636,7 +636,8 @@ h2 {
     .link-wrapper {
         display: flex;
         flex-direction: column;
-        justify-content: center;align-content: center;
+        justify-content: center;
+        align-content: center;
         margin-right: 100px;
         margin: 20px auto;
     } 
