@@ -14,14 +14,14 @@ let movieTitle4 = document.querySelector(".title-4")
 
 function showText(mov, title) {
     mov.onmouseenter = function(evt) { 
-        title.classList.remove('hidden')
+        title.classList.remove('hidden-mobile')
         
     }    
 }
 
 function hideText(mov, title) {
     mov.onmouseleave = function(evt) { 
-        title.classList.add('hidden')
+        title.classList.add('hidden-mobile')
         
     }    
 }
