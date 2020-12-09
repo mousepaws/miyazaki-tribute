@@ -653,5 +653,10 @@ h2 {
     .moviename {
         font-size: 1.2em;
     }
+    
+    #quote-caption {
+        justify-self: center;
+        font-size: 1em;
+    }
 }
 
